@@ -1,0 +1,1 @@
+document.body.innerHTML += "<div>External script loadded...</div>";

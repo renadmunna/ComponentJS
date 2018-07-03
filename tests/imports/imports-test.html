@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ComponentJS Imports Demo</title>
+    <script type="text/javascript" src="../../src/component.js"></script>
+    <script import="res.html">component.js();</script>
+    <style>
+      div{color:green;}
+      .external,.internal{display:none;}
+    </style>
+  </head>
+  <body>
+    <div class="external">External css loadded...</div>
+    <div class="internal">Internal css loadded...</div>
+  </body>
+</html>
